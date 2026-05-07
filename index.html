@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dario Croce - Digital Project Manager</title>
+    <!-- Caricamento Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --accent-color: #2563eb;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-top: 0;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 15px;
+            font-size: 0.9rem;
+            margin-top: 15px;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        .job {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+            transition: transform 0.2s ease;
+        }
+
+        .job:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .job-meta {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .skill-category {
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            background-color: #eff6ff;
+            color: var(--accent-color);
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            .contact-info {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dario Croce[cite: 3]</h1>
+            <p class="subtitle">Digital Project Manager | Marketing & Innovation[cite: 3]</p>
+            <div class="contact-info">
+                <span>📍 Bologna, Emilia-Romagna[cite: 3]</span>
+                <a href="mailto:tuamail@email.com">✉️ Email[cite: 3]</a>
+                <a href="https://linkedin.com/in/tuoprofilo" target="_blank">🔗 LinkedIn[cite: 3]</a>
+                <a href="https://github.com/tuo-user" target="_blank">💻 GitHub</a>
+            </div>
+        </header>
+
+        <main>
+            <section id="profilo">
+                <h2>Profilo Professionale</h2>
+                <p>Digital Project Manager con 10 anni di esperienza in contesti enterprise nel settore della ristorazione collettiva.[cite: 3] Profilo hands-on che coniuga competenze tecniche (Python, automazione, AI) con una forte visione di processo: capace di identificare colli di bottiglia operativi, progettare soluzioni scalabili e liberare ore-uomo da reinvestire in attività ad alto valore strategico.[cite: 3] Comprovata capacità di tradurre esigenze di business in requisiti tecnici concreti, coordinando fornitori esterni e team interni per evolvere l'innovazione dal POC al rilascio aziendale.[cite: 3]</p>
+            </section>
+
+            <section id="esperienza">
+                <h2>Esperienza Professionale</h2>
+                
+                <article class="job">
+                    <div class="job-title">Digital Project Manager & Innovation Specialist[cite: 3]</div>
+                    <div class="job-meta">Camst Group (11.000 dipendenti) | Bologna | [Anno] – Presente[cite: 3]</div>
+                    <p>Guida di progetti trasversali per la digitalizzazione dei processi e l'ottimizzazione delle risorse tramite automazione e AI.[cite: 3]</p>
+                    <ul>
+                        <li><strong>Capoprogetto – POC AI Customer Satisfaction:</strong> classificazione automatica dei feedback utenti tramite modelli LLM e transformer (BERT), gestito con approccio iterativo e sprint bisettimanali con review al management.[cite: 3] Risultato: riduzione del tempo di analisi da 8 ore a 1 ora (−87%).[cite: 3] Il processo ottimizzato ha liberato risorse che hanno permesso di avviare proattivamente il progetto CAM.[cite: 3]</li>
+                        <li><strong>Progetto CAM:</strong> analisi e riprogettazione end-to-end del processo di rendicontazione acquisti BIO/DOP-IGP per appalti pubblici.[cite: 3] Fase attuale: sviluppo script Python (Pandas) per normalizzazione automatica dei flussi, con prototipazione di report HTML interattivi (Plotly).[cite: 3]</li>
+                        <li><strong>Capoprogetto – ristorazionescolastica.it:</strong> coordinamento di 5 risorse interne lungo l'intero ciclo Waterfall, con milestone tracciate su Asana.[cite: 3] CMS custom, area riservata multi-profilo.[cite: 3] Risultato: portale attivo con oltre 16.000 utenti registrati e 184 comuni operativi.[cite: 3]</li>
+                    </ul>
+                </article>
+
+                <article class="job">
+                    <div class="job-title">Digital Marketing Specialist & Data Analyst[cite: 3]</div>
+                    <div class="job-meta">Camst Group | Bologna | 2015 – [Anno][cite: 3]</div>
+                    <p>Sviluppo e gestione degli asset digitali aziendali con forte orientamento all'analisi del dato.[cite: 3]</p>
+                    <ul>
+                        <li><strong>SEO & Lead Generation:</strong> audit tecnico on-page e sviluppo script Python custom per analisi avanzata.[cite: 3] Gestione del funnel di acquisizione B2B: oltre 3.000 richieste di contatto nel quadriennio 2022–2025.[cite: 3]</li>
+                        <li><strong>Web Analytics:</strong> implementazione e gestione sistemi di tracciamento in ottica GDPR-compliant.[cite: 3]</li>
+                        <li><strong>Marketing Automation:</strong> progettazione di campagne strategiche e operative su segmenti B2B/B2C, A/B test e ottimizzazione CR.[cite: 3]</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="competenze">
+                <h2>Competenze Tecniche</h2>
+                <div class="job">
+                    <div class="skills-grid">
+                        <div class="skill-category">Dati & AI[cite: 3]</div>
+                        <div class="tags">
+                            <span class="tag">Python (Pandas)[cite: 3]</span>
+                            <span class="tag">Modelli LLM/BERT[cite: 3]</span>
+                            <span class="tag">Plotly[cite: 3]</span>
+                        </div>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">SEO & Analytics[cite: 3]</div>
+                        <div class="tags">
+                            <span class="tag">Google Analytics GA4[cite: 3]</span>
+                            <span class="tag">Matomo[cite: 3]</span>
+                            <span class="tag">SemRush[cite: 3]</span>
+                            <span class="tag">Screaming Frog[cite: 3]</span>
+                        </div>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">Enterprise & Mgmt[cite: 3]</div>
+                        <div class="tags">
+                            <span class="tag">Microsoft 365[cite: 3]</span>
+                            <span class="tag">Copilot Studio[cite: 3]</span>
+                            <span class="tag">Power Automate[cite: 3]</span>
+                            <span class="tag">Asana[cite: 3]</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
