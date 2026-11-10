@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-dario-croce",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portfolio professionale di Dario Croce: sito statico pubblicabile con GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build/build.mjs",
+    "serve": "node src/build/serve.mjs",
+    "start": "node src/build/build.mjs && node src/build/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

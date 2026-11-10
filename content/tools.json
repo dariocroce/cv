@@ -1,0 +1,59 @@
+{
+  "_istruzioni": [
+    "Strumenti realmente utilizzati, raggruppati per tipologia. Uno strumento non è un progetto: la colonna 'Utilizzato in' si compila da sola con i progetti che lo citano nel campo technologies.",
+    "aliases: nomi alternativi con cui lo strumento può comparire nei progetti (es. 'Apps Script').",
+    "note: testo facoltativo mostrato quando lo strumento non è collegato a nessun progetto documentato."
+  ],
+  "groups": [
+    {
+      "id": "ai",
+      "title": "AI applicata",
+      "tools": [
+        { "name": "Azure OpenAI" },
+        { "name": "LLM", "aliases": ["Large Language Model", "modelli LLM"] },
+        { "name": "Microsoft Copilot", "aliases": ["Copilot"] }
+      ]
+    },
+    {
+      "id": "linguaggi-formati",
+      "title": "Linguaggi e formati",
+      "tools": [
+        { "name": "Python" },
+        { "name": "JSON" },
+        { "name": "XLSX" },
+        { "name": "HTML", "aliases": ["Template HTML"] }
+      ]
+    },
+    {
+      "id": "automazione",
+      "title": "Automazione e piattaforme",
+      "tools": [
+        { "name": "Power Automate" },
+        { "name": "Google Apps Script", "aliases": ["Apps Script"] },
+        { "name": "Google Sheets" },
+        { "name": "SharePoint" }
+      ]
+    },
+    {
+      "id": "analytics",
+      "title": "Analytics e misurazione",
+      "tools": [
+        { "name": "Matomo" },
+        { "name": "Google Analytics 4", "aliases": ["GA4"] },
+        { "name": "Google Tag Manager", "aliases": ["GTM"] },
+        { "name": "Google Search Console", "aliases": ["Search Console"] },
+        { "name": "Looker Studio" }
+      ]
+    },
+    {
+      "id": "web-seo",
+      "title": "Web, CMS e SEO",
+      "tools": [
+        { "name": "CMS", "aliases": ["CMS proprietario"] },
+        { "name": "WordPress" },
+        { "name": "Google Business Profile" },
+        { "name": "SEO tools", "lang": "en" }
+      ]
+    }
+  ]
+}

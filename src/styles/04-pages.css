@@ -1,0 +1,371 @@
+/* ==========================================================================
+   04 · Pagine: home, elenco progetti, case study, Tools & Technologies
+   ========================================================================== */
+
+/* Home · hero -------------------------------------------------------------- */
+
+.hero {
+  padding-block: clamp(3rem, 2rem + 5vw, 6.5rem) var(--section-gap);
+}
+
+.hero__grid {
+  display: grid;
+  gap: var(--space-8);
+}
+
+@media (min-width: 64rem) {
+  .hero__grid {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: var(--space-9);
+    align-items: end;
+  }
+}
+
+.hero__title {
+  font-size: var(--text-3xl);
+  letter-spacing: -0.035em;
+}
+
+.hero__lead {
+  max-width: 36ch;
+  margin-block-start: var(--space-5);
+  font-size: var(--text-md);
+  line-height: var(--leading-snug);
+}
+
+.hero__intro {
+  max-width: var(--measure-narrow);
+  margin-block-start: var(--space-5);
+  color: var(--color-ink-muted);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-block-start: var(--space-6);
+}
+
+/* Home · indice delle aree ------------------------------------------------- */
+
+.area-index__title {
+  margin-block-end: var(--space-3);
+}
+
+.area-index__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-block-start: 2px solid var(--color-ink);
+}
+
+.area-index__link {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr) auto;
+  gap: var(--space-1) var(--space-3);
+  padding-block: var(--space-4);
+  border-block-end: var(--border);
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.area-index__link:hover {
+  color: var(--color-ink);
+}
+
+.area-index__link:hover .area-index__name {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.area-index__num,
+.area-index__count {
+  padding-block-start: 0.3em;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+}
+
+.area-index__num {
+  color: var(--color-accent);
+}
+
+.area-index__count {
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+
+.area-index__name {
+  font-weight: var(--weight-semibold);
+}
+
+.area-index__desc {
+  grid-column: 2 / -1;
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+/* Home · anteprima strumenti ----------------------------------------------- */
+
+.tool-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 11.5rem), 1fr));
+  gap: var(--space-6);
+}
+
+.tool-group__title {
+  margin-block-end: var(--space-3);
+  padding-block-end: var(--space-2);
+  border-block-end: var(--border);
+}
+
+.tool-group__list {
+  display: grid;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Elenco progetti ---------------------------------------------------------- */
+
+.project-group {
+  padding-block: var(--space-7);
+  border-block-start: var(--border);
+}
+
+.project-groups > .project-group:first-child {
+  border-block-start: 0;
+}
+
+.project-group__head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: var(--space-4);
+  align-items: baseline;
+  margin-block-end: var(--space-5);
+}
+
+.project-group__num {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+}
+
+.project-group__title {
+  font-size: var(--text-xl);
+}
+
+.project-group__desc {
+  grid-column: 2;
+  max-width: var(--measure-narrow);
+  margin-block-start: var(--space-2);
+  color: var(--color-ink-muted);
+}
+
+.project-group__head .ph {
+  grid-column: 2;
+  margin-block-start: var(--space-2);
+}
+
+.project-groups {
+  padding-block-end: var(--section-gap);
+}
+
+/* Case study ----------------------------------------------------------------- */
+
+.case {
+  display: grid;
+  gap: var(--space-6);
+  padding-block: var(--space-7);
+}
+
+@media (min-width: 64rem) {
+  .case {
+    grid-template-columns: 12rem minmax(0, 1fr);
+    gap: var(--space-8);
+  }
+
+  .case__toc {
+    position: sticky;
+    inset-block-start: var(--space-6);
+    align-self: start;
+  }
+}
+
+.toc__title {
+  margin-block-end: var(--space-2);
+}
+
+.toc ol {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 40rem) {
+  .toc ol {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  .toc ol {
+    grid-template-columns: 1fr;
+  }
+}
+
+.toc a {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding-block: var(--space-2);
+  border-block-end: var(--border);
+  color: var(--color-ink-muted);
+  font-size: var(--text-sm);
+  text-decoration: none;
+}
+
+.toc a:hover {
+  color: var(--color-ink);
+  text-decoration: underline;
+}
+
+.toc__num {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+}
+
+.case-section {
+  padding-block: var(--space-7);
+  border-block-start: var(--border);
+}
+
+.case__body > .case-section:first-child {
+  padding-block-start: 0;
+  border-block-start: 0;
+}
+
+.case-section__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-3);
+  margin-block-end: var(--space-5);
+  font-size: var(--text-xl);
+}
+
+.case-section__num {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  letter-spacing: 0;
+  color: var(--color-accent);
+}
+
+.case-section__body > * + * {
+  margin-block-start: var(--space-5);
+}
+
+.case-section__body > :where(p, ul, ol, h4, .callout, .ph, .draft) {
+  max-width: var(--measure);
+}
+
+.case-section__body > :where(ul, ol) > li + li {
+  margin-block-start: var(--space-2);
+}
+
+.case-section__body > .subheading {
+  font-size: 1.0625rem;
+}
+
+/* Il ruolo personale è la sezione più importante: testo d'apertura in evidenza */
+.case-section--ruolo .case-section__body > p:first-child {
+  font-size: var(--text-md);
+  line-height: var(--leading-snug);
+}
+
+.related {
+  margin-block-start: var(--space-5);
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted);
+}
+
+.related__title {
+  margin-block-end: var(--space-3);
+}
+
+.related ul {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.related__area {
+  color: var(--color-ink-muted);
+  font-size: var(--text-sm);
+}
+
+/* Tools & Technologies ------------------------------------------------------- */
+
+.tool-sections {
+  padding-block-end: var(--section-gap);
+}
+
+.tool-section {
+  padding-block-start: var(--space-7);
+}
+
+.tool-section__title {
+  margin-block-end: var(--space-4);
+  font-size: var(--text-lg);
+}
+
+.tool-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tool-table th,
+.tool-table td {
+  padding: var(--space-3) var(--space-4) var(--space-3) 0;
+  border-block-end: var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.tool-table thead th {
+  padding-block-start: 0;
+  border-block-end: 1px solid var(--color-ink);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.tool-table tbody th {
+  width: 36%;
+  font-weight: var(--weight-semibold);
+}
+
+.tool-table tbody tr:target > * {
+  background: var(--color-accent-tint);
+}
+
+.tool-table tbody tr:target > th {
+  box-shadow: inset 3px 0 0 var(--color-accent);
+  padding-inline-start: var(--space-3);
+}
+
+.tool-table .muted {
+  color: var(--color-ink-muted);
+}

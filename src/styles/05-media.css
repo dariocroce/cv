@@ -1,0 +1,54 @@
+/* ==========================================================================
+   05 · Contesti particolari: modalità a contrasto forzato e stampa
+   ========================================================================== */
+
+@media (forced-colors: active) {
+  .filter-btn[aria-pressed="true"] {
+    border: 3px solid Highlight;
+  }
+
+  .ph,
+  .btn--placeholder,
+  .draft {
+    border-color: CanvasText;
+  }
+
+  .card__link:focus-visible::after {
+    outline-color: Highlight;
+  }
+
+  .structure__base {
+    border: 1px solid CanvasText;
+  }
+}
+
+@media print {
+  .skip-link,
+  .nav-toggle,
+  .site-nav,
+  .filters,
+  .pager,
+  .case__toc,
+  .site-footer__nav {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .card,
+  .group,
+  .diagram,
+  .stack__row {
+    break-inside: avoid;
+  }
+
+  .site-footer {
+    background: none;
+  }
+}

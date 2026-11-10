@@ -1,0 +1,24 @@
+[
+  {
+    "id": "siti-app",
+    "title": "Siti & App",
+    "description": "Piattaforme digitali, siti e web application."
+  },
+  {
+    "id": "automation-data-ai",
+    "title": "Automation, Data & AI",
+    "lang": "en",
+    "description": "Automazione di processi, trasformazione dei dati e proof of concept con modelli linguistici."
+  },
+  {
+    "id": "digital-marketing",
+    "title": "Digital Marketing",
+    "description": "SEO e presenza locale nei risultati di ricerca."
+  },
+  {
+    "id": "data-governance-measurement",
+    "title": "Data Governance & Measurement",
+    "lang": "en",
+    "description": "Web analytics, gestione del consenso e tracking."
+  }
+]
