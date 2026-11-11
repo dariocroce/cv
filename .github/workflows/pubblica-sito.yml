@@ -1,0 +1,60 @@
+# Pubblica il portfolio su GitHub Pages a ogni modifica salvata nel repository.
+# Non serve modificare questo file: l'indirizzo del sito viene ricavato in automatico
+# dalle impostazioni di GitHub Pages (Settings → Pages → Source: GitHub Actions).
+name: Pubblica il portfolio
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Genera il sito
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica i file del repository
+        uses: actions/checkout@v6
+
+      - name: Prepara Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Leggi l'indirizzo del sito
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Genera le pagine
+        run: node src/build/build.mjs
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+
+      - name: Riepilogo dei contenuti da completare
+        run: cat CONTENUTI-DA-COMPLETARE.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Prepara i file da pubblicare
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy:
+    name: Pubblica
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Pubblica su GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
