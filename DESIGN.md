@@ -15,7 +15,6 @@ Home  /
 │   │   ├── Dettagli Catering                    /progetti/dettagli-catering/
 │   │   └── People                               /progetti/people/
 │   ├── 02 Automation, Data & AI                 /progetti/#automation-data-ai
-│   │   ├── BOOM                                 /progetti/boom/
 │   │   ├── AI Classification of Customer Feedback
 │   │   ├── CAA Menu Accessibility
 │   │   └── Automated Data Pipeline & SharePoint Dashboards
@@ -23,15 +22,14 @@ Home  /
 │   │   ├── Google Business Profile & Local SEO
 │   │   └── SEO / Lead Generation
 │   └── 04 Data Governance & Measurement         /progetti/#data-governance-measurement
-│       ├── Migrazione Web Analytics verso Matomo
 │       └── Standardizzazione del processo di consenso e tracking
 ├── Tools & Technologies  /strumenti/            strumento → progetti in cui è stato usato
-└── Contatti  #contatti                          nel footer di ogni pagina (email, LinkedIn, CV)
+└── Contatti  #contatti                          nel footer di ogni pagina (email, LinkedIn)
 ```
 
 **Navigazione principale:** Progetti · Tools & Technologies · Contatti.
-**Home:** nome, posizionamento, introduzione, accesso a CV e LinkedIn, indice delle aree (con conteggio e link filtrato), progetti in evidenza, anteprima degli strumenti.
-**Pagina progetto:** breadcrumb (Home / Progetti / Area / Progetto), metadati (area, ruolo, ambito), indice "In questa pagina", sette sezioni, progetti collegati, navigazione precedente/successivo.
+**Home:** nome, posizionamento, introduzione, collegamento a LinkedIn, indice delle aree (con conteggio e link filtrato), progetti in evidenza, anteprima degli strumenti.
+**Pagina progetto:** breadcrumb (Home / Progetti / Area / Progetto), metadati (area, ruolo, ambito), indice "In questa pagina", fino a sette sezioni (solo quelle con contenuti documentati), progetti collegati, navigazione precedente/successivo.
 **Strumenti e progetti sono separati:** uno strumento non è mai un progetto; la pagina Tools & Technologies mostra per ogni strumento i casi di studio in cui è stato applicato.
 
 ## 3. Template del case study
@@ -48,7 +46,7 @@ Home  /
 
 Il brief numerava due sezioni come 03 (Role e Approach): la numerazione è stata resa progressiva da 01 a 07.
 
-**Regole di accuratezza applicate ai contenuti:** testi riportati fedelmente dalla fonte; nessun ruolo attribuito se non indicato (in quel caso la sezione Ruolo resta un segnaposto); nessuna metrica; verbi originali mantenuti ("progettazione", "sviluppo di un Proof of Concept", "analisi e prototipazione", "coordinamento"); i diagrammi visualizzano solo passaggi presenti nei contenuti forniti.
+**Regole di accuratezza applicate ai contenuti:** testi ripresi fedelmente dalle fonti fornite da Dario (contenuti verificati, documento dei contenuti del portfolio e CV); nessun ruolo attribuito se non indicato nelle fonti; metriche solo se presenti nelle fonti e non segnate come da validare; verbi originali mantenuti ("progettazione", "sviluppo di un Proof of Concept", "analisi e prototipazione", "coordinamento"); i diagrammi visualizzano solo passaggi presenti nelle fonti; le sezioni senza contenuti documentati non vengono mostrate.
 
 ## 4. Direzione visiva
 

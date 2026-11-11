@@ -9,50 +9,154 @@
       "id": "ai",
       "title": "AI applicata",
       "tools": [
-        { "name": "Azure OpenAI" },
-        { "name": "LLM", "aliases": ["Large Language Model", "modelli LLM"] },
-        { "name": "Microsoft Copilot", "aliases": ["Copilot"] }
+        {
+          "name": "Azure OpenAI"
+        },
+        {
+          "name": "Azure AI Foundry"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "aliases": [
+            "Copilot"
+          ]
+        },
+        {
+          "name": "Microsoft Copilot Studio",
+          "aliases": [
+            "Copilot Studio"
+          ]
+        },
+        {
+          "name": "LLM",
+          "aliases": [
+            "Large Language Model",
+            "modelli LLM"
+          ]
+        }
       ]
     },
     {
       "id": "linguaggi-formati",
       "title": "Linguaggi e formati",
       "tools": [
-        { "name": "Python" },
-        { "name": "JSON" },
-        { "name": "XLSX" },
-        { "name": "HTML", "aliases": ["Template HTML"] }
+        {
+          "name": "Python"
+        },
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "HTML",
+          "aliases": [
+            "Template HTML"
+          ]
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "JSON"
+        },
+        {
+          "name": "XLSX"
+        }
       ]
     },
     {
       "id": "automazione",
       "title": "Automazione e piattaforme",
       "tools": [
-        { "name": "Power Automate" },
-        { "name": "Google Apps Script", "aliases": ["Apps Script"] },
-        { "name": "Google Sheets" },
-        { "name": "SharePoint" }
+        {
+          "name": "Power Automate",
+          "aliases": [
+            "Microsoft Power Automate"
+          ]
+        },
+        {
+          "name": "Google Apps Script",
+          "aliases": [
+            "Apps Script"
+          ]
+        },
+        {
+          "name": "Google Sheets"
+        },
+        {
+          "name": "SharePoint"
+        },
+        {
+          "name": "Microsoft 365"
+        },
+        {
+          "name": "Asana"
+        },
+        {
+          "name": "SurveyMonkey"
+        }
       ]
     },
     {
       "id": "analytics",
-      "title": "Analytics e misurazione",
+      "title": "Analytics, consenso e misurazione",
       "tools": [
-        { "name": "Matomo" },
-        { "name": "Google Analytics 4", "aliases": ["GA4"] },
-        { "name": "Google Tag Manager", "aliases": ["GTM"] },
-        { "name": "Google Search Console", "aliases": ["Search Console"] },
-        { "name": "Looker Studio" }
+        {
+          "name": "Google Analytics 4",
+          "aliases": [
+            "GA4"
+          ]
+        },
+        {
+          "name": "Google Tag Manager",
+          "aliases": [
+            "GTM"
+          ]
+        },
+        {
+          "name": "Google Consent Mode v2",
+          "aliases": [
+            "Consent Mode v2"
+          ]
+        },
+        {
+          "name": "Avacy CMP",
+          "aliases": [
+            "Avacy"
+          ]
+        },
+        {
+          "name": "Matomo"
+        }
       ]
     },
     {
       "id": "web-seo",
       "title": "Web, CMS e SEO",
       "tools": [
-        { "name": "CMS", "aliases": ["CMS proprietario"] },
-        { "name": "WordPress" },
-        { "name": "Google Business Profile" },
-        { "name": "SEO tools", "lang": "en" }
+        {
+          "name": "CMS",
+          "aliases": [
+            "CMS proprietario"
+          ]
+        },
+        {
+          "name": "WordPress"
+        },
+        {
+          "name": "Google Search Console",
+          "aliases": [
+            "Search Console"
+          ]
+        },
+        {
+          "name": "Semrush"
+        },
+        {
+          "name": "Screaming Frog"
+        },
+        {
+          "name": "Google Business Profile"
+        }
       ]
     }
   ]

@@ -142,7 +142,7 @@ base: CMS proprietario
 ## Contatti e CV
 
 In `content/site.json` → `contacts`: `null` mostra un segnaposto, `false` nasconde la voce.
-Per il CV copia il PDF in `src/static/docs/` e imposta `"cv": "assets/docs/NomeFile.pdf"`.
+Il CV in PDF non viene pubblicato sul sito: in `site.json` la voce `"cv"` è impostata a `false`.
 Il sito è pubblico: usa un indirizzo email personale, non aziendale.
 
 ## Indicizzazione

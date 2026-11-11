@@ -1,14 +1,24 @@
 ---
-# Nei contenuti forniti la scheda è intitolata "SEO": la parte di Lead Generation è ancora da documentare.
 title: SEO / Lead Generation
 category: digital-marketing
 order: 2
 featured: true
+role: Presidio SEO e coordinamento dei partner
 scope: SEO Management · Organic Search · Digital Strategy
 summary: Presidio della SEO dei touchpoint digitali aziendali, dalla definizione delle priorità all'analisi delle performance organiche.
-technologies: Google Search Console
-competencies: SEO Strategy, Technical SEO, On-page SEO, Keyword Research, Search Intent, Google Search Console, SEO Management
+technologies: Google Search Console, Google Analytics 4, Semrush, Screaming Frog
+competencies: SEO Strategy, Technical SEO, On-page SEO, Keyword Research, Search Intent, Lead Generation, SEO Management
+# Sezioni non mostrate: soluzione e risultato.
+omit: soluzione, risultato
 ---
+
+## Contesto
+
+Gestione continuativa della SEO sui principali touchpoint digitali aziendali, rivolti a pubblici B2B e B2C.
+
+## Problema
+
+Intercettare domanda organica qualificata e generare opportunità commerciali, in particolare per il segmento B2B.
 
 ## Ruolo
 
@@ -30,6 +40,7 @@ L'attività viene svolta in collaborazione con specialisti esterni, mantenendo i
 - Valutazione della struttura dei contenuti in ottica SEO
 - Analisi delle performance organiche e individuazione delle aree di intervento
 - Definizione e prioritizzazione delle attività con i partner SEO
+- Prime valutazioni in ambito GEO (*Generative Engine Optimization*)
 
 ### On-page SEO
 
@@ -40,6 +51,7 @@ L'attività viene svolta in collaborazione con specialisti esterni, mantenendo i
 
 ### Technical SEO
 
+- Crawl e audit periodici con Screaming Frog e Semrush
 - Presidio degli aspetti legati a crawling e indicizzazione
 - Gestione e verifica di sitemap, redirect, canonical e principali elementi tecnici
 - Individuazione di criticità tecniche che possono influire sulla visibilità organica
@@ -54,4 +66,6 @@ L'attività viene svolta in collaborazione con specialisti esterni, mantenendo i
 
 ### Lead Generation
 
-TODO: Contenuti relativi alla Lead Generation non ancora forniti.
+- Analisi di keyword, SERP e search intent su query non-branded, per intercettare domanda qualificata
+- Ottimizzazione di landing page e punti di conversione B2B
+- Ottimizzazione dei funnel B2B con Semrush, Screaming Frog, Search Console e GA4

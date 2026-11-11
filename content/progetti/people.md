@@ -9,7 +9,13 @@ role: Technical Project Manager
 scope: Employee Web App · Internal Communication
 summary: Web application aziendale dedicata alla comunicazione interna e ai servizi rivolti ai dipendenti.
 competencies: Technical Project Management, Web Application, Functional Analysis, Digital Product, QA & Testing, Vendor Management, Stakeholder Management
+# Sezioni senza contenuti documentati: non mostrate.
+omit: problema, approccio, soluzione, risultato, stack
 ---
+
+## Contesto
+
+People è la web application aziendale dedicata alla comunicazione interna e ai servizi rivolti ai dipendenti. La piattaforma è sviluppata da un fornitore esterno.
 
 ## Ruolo
 

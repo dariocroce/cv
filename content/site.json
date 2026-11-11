@@ -5,18 +5,18 @@
     "contacts: null = segnaposto da completare, false = voce nascosta. cv = percorso del PDF (es. assets/docs/CV-Dario-Croce.pdf, file da copiare in src/static/docs/).",
     "Il sito è pubblico: non inserire indirizzi email aziendali."
   ],
-  "siteUrl": "https://USERNAME.github.io/REPOSITORY",
+  "siteUrl": "https://dariocroce.github.io/cv",
   "lang": "it",
   "locale": "it_IT",
   "name": "Dario Croce",
   "description": "Portfolio di Dario Croce: progetti su piattaforme web, digital marketing, automazione, dati e AI applicata, con ruolo, approccio e strumenti utilizzati.",
   "positioning": "Lavoro all'intersezione tra digital marketing, piattaforme web, automazione, dati, AI applicata, digital analytics e miglioramento dei processi.",
-  "intro": "BOZZA: Sono il riferimento aziendale per i canali web. Seguo progetti di piattaforme e siti come Project Manager, presidio la SEO dei touchpoint digitali e lavoro su automazione dei processi e proof of concept basati su modelli linguistici.",
+  "intro": "Ho 10 anni di esperienza nel digital marketing, con una progressiva specializzazione nella gestione di progetti e piattaforme digitali B2B e B2C: raccolta dei requisiti, coordinamento di stakeholder e fornitori, testing, go-live, formazione ed evolutive. Uso competenze in web, analytics, automazione e AI applicata per tradurre esigenze operative in soluzioni concrete e prototipi funzionanti.",
   "toolsSummary": "Strumenti e tecnologie utilizzati nei progetti, collegati ai casi in cui sono stati applicati.",
   "toolsIntro": "Tecnologie e strumenti utilizzati nei progetti. Non sono progetti in sé: per ciascuno è indicato il caso di studio in cui è stato applicato.",
   "contacts": {
-    "email": null,
-    "linkedin": null,
-    "cv": null
+    "email": "dario.croce.85@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/dario-croce/",
+    "cv": false
   }
 }

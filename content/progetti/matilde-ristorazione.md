@@ -6,17 +6,17 @@ featured: true
 role: Project Manager
 scope: Website Restyling · WordPress
 summary: Coordinamento del restyling del sito Matilde Ristorazione, realizzato in WordPress, con revisione della struttura del sito, dell'esperienza di navigazione e dell'identità visiva.
-technologies: WordPress
-competencies: Project Management, WordPress, UX/UI, Information Architecture, Web Design, Brand Design, System Integration, Vendor Management
+technologies: WordPress, JSON
+competencies: Project Management, WordPress, UX/UI, Information Architecture, Web Design, Brand Design, System Integration, API Testing, Vendor Management
 ---
 
 ## Contesto
 
-TODO: Qual era il contesto iniziale del sito prima del restyling.
+Restyling del sito matilderistorazione.it con l'obiettivo di modernizzare l'esperienza digitale, riorganizzare i contenuti e semplificare la consultazione delle informazioni rivolte a famiglie, scuole e territorio.
 
 ## Problema
 
-TODO: Quale problema o esigenza ha reso necessario il restyling.
+Oltre a rinnovare struttura e navigazione, il progetto doveva superare la gestione separata dei menu: invece di gestirli a parte nel sito, l'obiettivo era esporli in modo dinamico a partire dalla fonte aziendale.
 
 ## Ruolo
 
@@ -52,7 +52,15 @@ Come **Project Manager** ho coordinato il progetto di restyling.
 
 ## Approccio
 
-TODO: Come è stato affrontato il progetto.
+Accanto al restyling, ho seguito la progettazione funzionale e il testing dell'integrazione dei menu.
+
+### Integrazione dei menu
+
+- Definizione del flusso funzionale di consultazione e analisi della struttura dati necessaria all'esposizione web
+- Analisi della documentazione dei web service, in raccordo con i referenti tecnici
+- Definizione delle logiche di interrogazione per cliente, destinazione, grado scolastico e dieta
+- Test delle API e analisi delle risposte JSON, verificando i menu restituiti in funzione di data, grado scolastico e dieta
+- Segnalazione delle anomalie e test funzionale dell'integrazione sul front-end
 
 ## Soluzione
 
@@ -61,9 +69,13 @@ Un elemento caratterizzante del progetto è l'**integrazione con uno strumento a
 ```flow
 caption: Integrazione dei menu
 - Strumento aziendale di gestione dei menu | fonte centralizzata dei contenuti
+- API / web service | risposte in formato JSON
+- Selezione per data, grado scolastico e dieta
 - Sito Matilde Ristorazione (WordPress) | espone i menu senza gestirli separatamente
 ```
 
 ## Risultato
 
-TODO: Risultato ottenuto. Solo risultati documentati: nessuna metrica se non verificabile.
+- Restyling completo del sito e riorganizzazione dell'architettura informativa
+- Nuova versione della mascotte Matilde, con nuove pose e declinazioni grafiche
+- Integrazione con il sistema aziendale di gestione dei menu progettata e testata: il sito espone i menu da una fonte centralizzata ed è integrato con i sistemi operativi
